@@ -66,3 +66,12 @@ if __name__== "__main__":
     dll.printList()
     dll.deleteFromEnd()
     dll.printList()
+
+# Output
+# None
+# 1<=>None
+# 2<=>1<=>None
+# 3<=>2<=>1<=>None
+# 3<=>2<=>1<=>4<=>None
+# 3<=>2<=>1<=>4<=>5<=>None
+# 3<=>2<=>1<=>4<=>None

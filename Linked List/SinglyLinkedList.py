@@ -52,9 +52,6 @@ class SinglyLinkedList:
         print("None")
 
 
-
-
-
 if __name__ == "__main__":
     sll= SinglyLinkedList()
     help(sll.insertAtBeginning)
@@ -63,3 +60,6 @@ if __name__ == "__main__":
     sll.insertAtBeginning(3)
     sll.insertAtIndex(5, 1)
     sll.print_ll()
+
+# Output
+# 3 ->5 ->2 ->1 ->None
