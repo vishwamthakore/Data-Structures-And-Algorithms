@@ -39,3 +39,14 @@ print("Popped", s.pop())
 print("Popped", s.pop())
 print("Peek", s.peek())
 s.printStack()
+
+
+# Output
+# [1]
+# [1, 2]
+# [1, 2, 3]
+# [1, 2, 3, 4]
+# Popped 4
+# Popped 3
+# Peek 2
+# [1, 2]
