@@ -70,3 +70,13 @@ if __name__ == '__main__':
 # Queue is full
 # 2--3--4
 # 2--3--4--11
+# deque([2, 3])
+
+from collections import deque
+
+q = deque()
+q.append(1)
+q.append(2)
+q.append(3)
+q.popleft()
+print(q)
